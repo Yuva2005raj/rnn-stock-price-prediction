@@ -5,6 +5,11 @@
 To develop a Recurrent Neural Network model for stock price prediction.
 
 ## Problem Statement and Dataset
+Develop a Recurrent Neural Network (RNN) model to predict the stock prices of Google. The goal is to train the model using historical stock price data and then evaluate its performance on a separate test dataset.
+
+Dataset: The dataset consists of two CSV files:
+
+Trainset.csv: This file contains historical stock price data of Google, which will be used for training the RNN model. It includes features such as the opening price of the stock. Testset.csv: This file contains additional historical stock price data of Google, which will be used for testing the trained RNN model. Similarly, it includes features such as the opening price of the stock. The objective is to build a model that can effectively learn from the patterns in the training data to make accurate predictions on the test data.
 ![image](https://github.com/lokeshrahulv/rnn-stock-price-prediction/assets/118423842/b24e6954-059f-47ee-b9b8-47da21ac141b)
 
 ## Design Steps
